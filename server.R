@@ -4,7 +4,7 @@ library(rjson)
 library(Quandl)
 
 # Function that converts between currencies (USD TO MXN)
-myConverter <- function(valueToConvert, start, end){
+myConverter <- function(valueToConvert){
 
 	# Load latest exchange value in JSON
 	url <- "http://rate-exchange.appspot.com/currency?from=USD&to=MXN"
